@@ -13,16 +13,15 @@ const projectsData = [
       "Using: React, Vite, Javascript, SCSS, Redux, Movie Database(TMDB), Vercel, NPM packages",
     image: "/images/Movix.png",
     tag: ["All", "React"],
-    gitUrl: "https://github.com/abdulbasit600/Movix",
     previewUrl: "https://movix-delta-tawny.vercel.app/",
   },
   {
     id: 2,
     title: "Full-stack Ecommerce Website From Next.Js",
-    description: "Using: Next.Js, React, Typescripe, Tailwind Css, lucide-react, Stripe, Shadcn/Radix ui, Backent(Sanity), Vercel, NPM packages ",
+    description:
+      "Using: Next.Js, React, Typescripe, Tailwind Css, lucide-react, Stripe, Shadcn/Radix ui, Backent(Sanity), Vercel, NPM packages ",
     image: "/images/E-Commerce.png",
     tag: ["All", "Next.Js"],
-    gitUrl: "https://github.com/abdulbasit600/E-commerce",
     previewUrl: "https://e-commerce-ten-henna.vercel.app/",
   },
   {
@@ -32,7 +31,6 @@ const projectsData = [
       "Using: Next.Js, React, Typescript, Tailwind CSS, Framer-motion, Vercel, Resend, NPM packages",
     image: "/images/Portfolio.png",
     tag: ["All", "Next.Js"],
-    gitUrl: "https://github.com/abdulbasit600/portfolio",
     previewUrl: "https://portfolio-rho-bay-80.vercel.app/",
   },
   {
@@ -42,7 +40,6 @@ const projectsData = [
       "Using: Next.Js, React, Typescript, TailwindCss, Stripe, Database(Supabase), Vercel, NPM packages ",
     image: "/images/Spotify_clone.png",
     tag: ["All", "Next.Js"],
-    gitUrl: "https://github.com/abdulbasit600/Spotify-Clone",
     previewUrl: "https://spotify-clone-hazel-nine.vercel.app/",
   },
   {
@@ -52,7 +49,6 @@ const projectsData = [
       "Using: Next.Js, React, TailwindCSS, Typescript, Shadcn, Database(Cloudinary), Vercel, NPM packages",
     image: "/images/Album.png",
     tag: ["All", "Next.Js"],
-    gitUrl: "/",
     previewUrl: "/",
   },
   {
@@ -61,7 +57,6 @@ const projectsData = [
     description: "Using: Next.Js",
     image: "/images/G-P-T.png",
     tag: ["All", "Next.Js"],
-    gitUrl: "/",
     previewUrl: "/",
   },
 ];
@@ -124,7 +119,6 @@ const ProjectsSection = () => {
                 title={project.title}
                 description={project.description}
                 imgUrl={project.image}
-                gitUrl={project.gitUrl}
                 previewUrl={project.previewUrl}
               />
             </motion.li>
