@@ -49,7 +49,7 @@ const projectsData = [
       "Using: Next.Js, React, TailwindCSS, Typescript, Shadcn, Database(Cloudinary), Vercel, NPM packages",
     image: "/images/Album.png",
     tag: ["All", "Next.Js"],
-    previewUrl: "/",
+    previewUrl: "https://album-three-wheat.vercel.app/",
   },
   {
     id: 6,
