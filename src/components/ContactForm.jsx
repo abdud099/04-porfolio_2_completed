@@ -15,7 +15,7 @@ const ContactForm = () => {
 
   const [isSending, setIsSending] = useState(false);
 
-  const handleChange = (e: any) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -35,7 +35,7 @@ const ContactForm = () => {
     return errors;
   };
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
