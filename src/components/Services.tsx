@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div className="pt-[4rem] md:pt-[8rem] pb-[5rem]">
       <p className="heading">
-        My{" "}
+        My
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#954CE2] to-[#00005A]">
           Services
         </span>
@@ -68,7 +68,7 @@ const Services = () => {
               applications. They focus on ensuring efficient data processing,
               secure transactions, and seamless integration with frontend
               components. Proficient in languages like Python, Fastapi, or
-              Kafka, they manage the application's core functionality and
+              Kafka, they manage the application&apos;s core functionality and
               performance behind the scenes.
             </p>
           </div>

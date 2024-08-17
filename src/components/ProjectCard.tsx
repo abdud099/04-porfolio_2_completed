@@ -2,12 +2,7 @@ import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const ProjectCard = ({
-  imgUrl,
-  title,
-  description,
-  previewUrl,
-}: any) => {
+const ProjectCard = ({ imgUrl, title, description, previewUrl }: any) => {
   return (
     <div>
       <motion.div

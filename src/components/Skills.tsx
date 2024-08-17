@@ -1,5 +1,4 @@
 import SkillsItem from "./SkillsItem";
-import SkillsLanguage from "./SkillsLanguage";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -16,33 +15,33 @@ const Skills = ({ directionLeft }: Props) => {
         </span>
       </h1>
       <div className="font-mono w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
-         <div>
-           {/* Education Section */}
-           <SkillsItem
-             title="Cloud Applied Generative AI Engineer"
-             year="2022 - 2023"
-             description="study by PIAIC"
-           />
-           <SkillsItem
-             title="MERN Stack Developer"
-             year="2022 - 2023"
-             description="study by PIAIC"
-           />
-         </div>
-         <div>
-           {/* Education Section */}
-           <SkillsItem
-             title="Next.Js Developer"
-             year="2023 - 2024"
-             description="study by bahria auditorium"
-           />
-           <SkillsItem
-             title="FastApi Developer"
-             year="2022 - 2023"
-             description="study by Usman Institute of Technology"
-           />
-       </div>
-     </div>
+        <div>
+          {/* Education Section */}
+          <SkillsItem
+            title="Cloud Applied Generative AI Engineer"
+            year="2022 - 2023"
+            description="study by PIAIC"
+          />
+          <SkillsItem
+            title="MERN Stack Developer"
+            year="2022 - 2023"
+            description="study by PIAIC"
+          />
+        </div>
+        <div>
+          {/* Education Section */}
+          <SkillsItem
+            title="Next.Js Developer"
+            year="2023 - 2024"
+            description="study by bahria auditorium"
+          />
+          <SkillsItem
+            title="FastApi Developer"
+            year="2022 - 2023"
+            description="study by Usman Institute of Technology"
+          />
+        </div>
+      </div>
       <motion.div
         initial={{
           opacity: 0,

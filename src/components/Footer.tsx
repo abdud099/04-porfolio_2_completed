@@ -1,14 +1,7 @@
-import {
-  FaDiscord,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
-import logo from "../../public/logo1.png";
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
 
+import logo from "../../public/logo1.png";
 const Footer = () => {
   return (
     <div className="mb-8 mt-20">

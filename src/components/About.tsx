@@ -12,7 +12,10 @@ const About = () => {
             About Me
           </h1>
           <h2 className="text-lg md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-[#d3d2d2]">
-            Transforming <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#954CE2] to-[#00005A]">Visions</span>
+            Transforming{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#954CE2] to-[#00005A]">
+              Visions
+            </span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-[#954CE2] rounded-sm"></span>

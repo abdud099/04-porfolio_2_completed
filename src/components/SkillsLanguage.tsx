@@ -21,7 +21,7 @@ const SkillsLanguage = ({
   level2,
   level3,
   level4,
-  level5
+  level5,
 }: Props) => {
   return (
     <div>
@@ -29,41 +29,31 @@ const SkillsLanguage = ({
         <h1 className="p-5 w-[100%] uppercase bg-[#0a0f14] rounded-sm text-white text-sm md:text-[20px] font-bold">
           {skill1}
         </h1>
-        <span
-          className={`${level1} bottom-0 h-[6px] absolute bg-[#FE0039]`}
-        />
+        <span className={`${level1} bottom-0 h-[6px] absolute bg-[#FE0039]`} />
       </div>
       <div className="relative mb-[3rem]">
         <h1 className="p-5 w-[100%] uppercase bg-[#0a0f14] rounded-sm text-white text-sm md:text-[20px] font-bold">
           {skill2}
         </h1>
-        <span
-          className={`${level2} bottom-0 h-[6px] absolute bg-[#FE0039]`}
-        />
+        <span className={`${level2} bottom-0 h-[6px] absolute bg-[#FE0039]`} />
       </div>
       <div className="relative mb-[3rem]">
         <h1 className="p-5 w-[100%] uppercase bg-[#0a0f14] rounded-sm text-white text-sm md:text-[20px] font-bold">
           {skill3}
         </h1>
-        <span
-          className={`${level3} bottom-0 h-[6px] absolute bg-[#FE0039]`}
-        />
+        <span className={`${level3} bottom-0 h-[6px] absolute bg-[#FE0039]`} />
       </div>
       <div className="relative mb-[3rem]">
         <h1 className="p-5 w-[100%] uppercase bg-[#0a0f14] rounded-sm text-white text-sm md:text-[20px] font-bold">
           {skill4}
         </h1>
-        <span
-          className={`${level4} bottom-0 h-[6px] absolute bg-[#FE0039]`}
-        />
+        <span className={`${level4} bottom-0 h-[6px] absolute bg-[#FE0039]`} />
       </div>
       <div className="relative mb-[3rem]">
         <h1 className="p-5 w-[100%] uppercase bg-[#0a0f14] rounded-sm text-white text-sm md:text-[20px] font-bold">
           {skill5}
         </h1>
-        <span
-          className={`${level5} bottom-0 h-[6px] absolute bg-[#FE0039]`}
-        />
+        <span className={`${level5} bottom-0 h-[6px] absolute bg-[#FE0039]`} />
       </div>
     </div>
   );
