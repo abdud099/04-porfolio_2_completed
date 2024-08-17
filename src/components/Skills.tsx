@@ -15,18 +15,18 @@ const Skills = ({ directionLeft }: Props) => {
           Skill&apos;s
         </span>
       </h1>
-      <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
+      <div className="font-mono w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
          <div>
            {/* Education Section */}
            <SkillsItem
-             title="React Developer"
+             title="Cloud Applied Generative AI Engineer"
              year="2022 - 2023"
-             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, magni?"
+             description="study by PIAIC"
            />
            <SkillsItem
              title="MERN Stack Developer"
-             year="2020 - 2021"
-             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, magni"
+             year="2022 - 2023"
+             description="study by PIAIC"
            />
          </div>
          <div>
@@ -34,12 +34,12 @@ const Skills = ({ directionLeft }: Props) => {
            <SkillsItem
              title="Next.Js Developer"
              year="2023 - 2024"
-             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, magni!"
+             description="study by bahria auditorium"
            />
            <SkillsItem
-             title="Node.Js Developer"
+             title="FastApi Developer"
              year="2022 - 2023"
-             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, magni."
+             description="study by Usman Institute of Technology"
            />
        </div>
      </div>

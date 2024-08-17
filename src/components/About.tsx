@@ -16,7 +16,7 @@ const About = () => {
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-[#954CE2] rounded-sm"></span>
-            <p className="text-sm md:text-[18.5px] text-[#d3d2d2] w-[80%]">
+            <p className="text-sm font-mono md:text-[17.5px] text-[#d3d2d2] w-[80%]">
               I am a full stack web developer with a passion for creating
               interactive and responsive web application.I have experience
               working with JavaScript, React.js, Node.js, Next.js, TypeScript,

@@ -15,12 +15,12 @@ const Nav = ({ openNav }: Props) => {
             <Image
               src="/logo.png"
               alt="Logo"
-              width={150}
-              height={150}
+              width={130}
+              height={130}
               className="hidden md:flex"
             />
-            <p className="md:hidden lg:hidden text-[25px] text-white font-bold">
-              basit<span className="text-[#FE0039]">Malik</span>
+            <p className="md:hidden lg:hidden text-[25px] text-transparent bg-clip-text bg-gradient-to-r from-[#954CE2] to-[#00005A] font-bold">
+              ABDUL BASIT
             </p>
           </Link>
         </h1>
@@ -48,31 +48,11 @@ const Nav = ({ openNav }: Props) => {
         <Link href="#contact">
           <div className="nav-link uppercase">Contact</div>
         </Link>
-        {/* <Link href="#hero">
-          <button className="nav-link uppercase">Home</button>
-        </Link>
-        <Link href="#about">
-          <button className="nav-link uppercase">About</button>
-        </Link>
-        <Link href="#service">
-          <button className="nav-link uppercase">Services</button>
-        </Link>
-        <Link href="#project">
-          <button className="nav-link uppercase">Project</button>
-        </Link>
-        <Link href="#blog">
-          <button className="nav-link uppercase">Blog</button>
-        </Link>
-        <Link href="#contact">
-          <button className="nav-link uppercase">Contact</button>
-        </Link> */}
-
         <div onClick={openNav}>
-          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-[#FE0039]" />
+          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-[#B266FF]" />
         </div>
       </div>
     </nav>
-    //#141c27
   );
 };
 
